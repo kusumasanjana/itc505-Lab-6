@@ -1,0 +1,41 @@
+/* Define styles for the Holy Grail Layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-areas: "menu content advertisement";
+    grid-template-columns: 200px 1fr 400px;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color:gray;
+    padding: 10px;
+}
+
+.content {
+    grid-area: content;
+    background-color: skyblue;
+    padding: 10px;
+}
+
+.advertisement {
+    grid-area: advertisement;
+    background-color: pink;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Additional styles can be added as needed */
